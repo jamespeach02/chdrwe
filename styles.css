@@ -1,0 +1,64 @@
+#main-pic-top {
+  width: 100%;
+  height: 20rem;
+  display: block;
+  margin: auto;
+  object-fit: cover;
+
+}
+body {
+  margin: 0;
+}
+#main-pic-top-header, #main-pic-top-desc {
+  bottom: 13rem;
+}
+.text-center {
+  text-align: center;
+  position: relative;
+}
+
+#company-description {
+  display: block;
+  margin: auto;
+  width: 55rem;
+}
+.table-head {
+  position: relative;
+  bottom: .75rem;
+}
+
+#affirmation-1 {
+  position: relative;
+  top: 2.5rem;
+  width: 50rem;
+  margin: auto;
+}
+.work-images {
+  position: relative;
+  top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.work-images img {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  width: 13rem;
+  height: 12rem;
+  padding: 1rem;
+}
+.work-images img:nth-of-type(odd){
+  position: relative;
+  top: 5rem;
+}
+#two-week-timeline {
+  position: relative;
+  top: 15rem;
+  background-color: red;
+}
+#two-wk-head {
+  font-size: 4rem;
+}
+#days-of-process tr {
+  width: 100%;
+}
+#days-of-process td {
+}
