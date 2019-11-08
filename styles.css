@@ -52,13 +52,98 @@ body {
 #two-week-timeline {
   position: relative;
   top: 15rem;
-  background-color: red;
 }
 #two-wk-head {
   font-size: 4rem;
 }
-#days-of-process tr {
-  width: 100%;
+
+#days-of-process {
+  margin: auto;
 }
-#days-of-process td {
+.process-day {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+.process-step-card {
+  position: relative;
+  top: 16rem;
+  width: 40rem;
+  margin: auto;
+  margin-bottom: 5rem;
+  border: 1px solid black;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1rem;
+  box-shadow: 2.5px 2.5px 2.5px 2.5px grey;
+}
+.process-step-card ul {
+  position: relative;
+  left: 9rem;
+}
+
+.process-step-title, .process-step-sub-title, .process-step-desc {
+  position: relative;
+  left: 10.5rem;
+  padding-right: 10rem;
+  bottom: 3.4rem;
+}
+
+#cost-estimate-and-survey, #satisfied-customers, #get-started, #freq-asked-questions {
+  position: relative;
+  top: 15rem;
+}
+
+#cost-estimate-and-survey {
+  text-align: center;
+}
+
+#total-cost {
+  font-weight: bold;
+}
+
+#satisfied-customers h1 {
+  text-align: center;
+}
+
+.satisfied-customer {
+  margin: auto;
+  width: 50%;
+}
+
+.customer-quote, .customer-desc {
+  position: relative;
+  left: 25rem;
+  bottom: 10rem;
+}
+.customer-quote {
+  position: relative;
+  width: 50%;
+
+}
+.customer-desc {
+  position: relative;
+}
+
+#get-started {
+  text-align: center;
+}
+
+#freq-asked-questions h2 {
+  text-align: center;
+}
+
+#freq-asked-questions table {
+  margin: 0 auto;
+  width: 50%;
+}
+#bottom-images {
+  position: relative;
+  top: 16rem;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+#bottom-images img{
+  width: 33%;
 }
