@@ -181,6 +181,10 @@ body {
   top: 150px; 
 }
 
+.satisfied-customer img {
+  margin-bottom: 15px; 
+}
+
 .customer-quote, .customer-desc {
   position: relative;
 }
@@ -194,12 +198,12 @@ body {
   font-weight: 450; 
 }
 .customer-desc {
-  position: relative;
+  position: absolute;
     font-family: freight-sans-pro, sans-serif; 
     color: grey; 
     font-size: 12px; 
-    bottom: 12rem; 
-    left: 11.5rem; 
+    bottom: 9rem; 
+    left: 350px; 
     text-align: center; 
 }
 
@@ -218,8 +222,9 @@ body {
     color: grey; 
 }
 #freq-asked-questions h2 {
-  text-align: center;
-    font-
+  text-align: center; 
+  font-family: jubilat, sans-serif; 
+  font-weight: 500; 
 }
 
 #freq-asked-questions table {
@@ -228,13 +233,16 @@ body {
 }
 #bottom-images {
   position: relative;
-  top: 25rem;
+  top: 30rem;
   width: 100%;
   display: block;
   margin: auto;
 }
 #bottom-images img{
-  width: 33%;
+  width: 33.33%;
+  margin: 0 auto; 
+  padding: 0; 
+    float: left; 
 }
 
 .satisfied-customer img {
@@ -245,8 +253,55 @@ button {
     padding: 10px; 
     border: 2px solid rgb(204, 210, 85); 
     color: grey; 
-    font-family: freight-sans-pro; 
+    font-family: freight-sans-pro, sans-serif; 
     font-weight: 500; 
     font-size: 15px; 
     color: rgb(140, 140, 140); 
+} 
+#freq-asked-questions table{
+	   width: 60%;
+    position: relative; 
+    left: 7%; 
+}
+#freq-asked-questions th{
+       text-align: left; 
+       font-family: freight-sans-pro; 
+       font-weight: 600;
+       color: rgb(140,140,140); 
+}
+#freq-asked-questions th:nth-of-type(even), 
+#freq-asked-questions td:nth-of-type(even) {
+    position: relative; 
+    top: 200px; 
+    margin: 0 auto; 
+    right: 25%; 
+}
+
+#freq-asked-questions td {
+    height: 10px; 
+    width: 25%; 
+    font-family: freight-sans-pro; 
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .customer-desc {
+      width: 240px;
+    }
+    
+    #freq-asked-questions th:nth-of-type(even),
+    #freq-asked-questions td:nth-of-type(even) {
+        position: relative; 
+        top: 250px; 
+    }
+    #bottom-images {
+        position: relative; 
+        top: 600px; 
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .satisfied-customer {
+        right: 100px; 
+    }
 }
