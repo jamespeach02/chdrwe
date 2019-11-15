@@ -37,6 +37,7 @@ body {
   bottom: .75rem;
   font-family: jubilat, sans-serif; 
     font-weight: 500; 
+    color: #323E48; 
 }
 
 .table-desc {
@@ -45,21 +46,21 @@ body {
 }
 #affirmation-1 {
   position: relative;
-  top: 2.5rem;
+  top: 5rem;
   width: 32.5rem;
   margin: auto; 
   font-family: jubilat, sans-serif; 
   font-weight: 450;
+  color: #323E48; 
   
 }
 .work-images {
   position: relative;
-  top: 5rem;
+  top: 13rem;
   display: flex;
   justify-content: center;
 }
 .work-images img {
-  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
   width: 13rem;
   height: 12rem;
   padding: 1rem;
@@ -70,36 +71,40 @@ body {
 }
 #two-week-timeline {
   position: relative;
-  top: 15rem;
+  top: 25rem;
 }
 #two-wk-head {
   font-size: 4rem;
   font-family: jubilat, sans-serif; 
-  font-weight: 500
+  font-weight: 500; 
+  color: #323E48; 
 }
 
 #days-of-process {
   margin: auto;
+  color: #323E48; 
 }
 
 .process-step-day {
     font-family: jubilat, sans-serif; 
     font-weight: 400; 
-    color: grey; 
+    color: #575756; 
 }
 .process-step-title {
     font-family: jubilat, sans-serif; 
     font-weight: 500; 
     margin-top: -30px;
+    color: #323E48; 
 }
 .process-step-sub-title {
     font-family: jubilat; 
     font-weight: 450; 
-    color: rgb(141, 141, 141); 
+    color: #979696; 
 }
 .process-step-desc {
     font-family: freight-sans-pro, sans-serif; 
-    color: rgb(99,99,99); 
+    color: #575756; 
+    font-weight: 500; 
     margin-bottom: -20px;
 }
 .process-day {
@@ -110,7 +115,7 @@ body {
 }
 .process-step-card {
   position: relative;
-  top: 16rem;
+  top: 2rem;
   width: 40rem;
   margin: auto;
   margin-bottom: 5rem;
@@ -142,12 +147,15 @@ body {
 }
 
 #cost-estimate-and-survey {
+  position: relative; 
+  top: 30rem; 
   text-align: center;
 }
 
 #cost-estimate-and-survey h1 {
     font-family: jubilat, sans-serif; 
     font-weight: 600; 
+    color: #323E48; 
 }
 #cost-estimate-and-survey h2 {
     font-family: freight-sans-pro, sans-serif; 
@@ -159,14 +167,13 @@ body {
     font-weight: 400; 
 }
 #total-cost {
-    font-weight: 600; 
-}
-#total-cost {
-  font-weight: bold;
+    font-weight: bold; 
+    color: #323E48; 
 }
 
 #satisfied-customers {
     position: relative; 
+    top: 40rem; 
 }
 #satisfied-customers h1 {
   text-align: center;
@@ -208,6 +215,8 @@ body {
 }
 
 #get-started {
+  position: relative; 
+  top: 50rem; 
   text-align: center; 
 }
 
@@ -221,6 +230,11 @@ body {
     font-weight: 400; 
     color: grey; 
 }
+
+#freq-asked-questions {
+    position: relative; 
+    top: 60rem; 
+}
 #freq-asked-questions h2 {
   text-align: center; 
   font-family: jubilat, sans-serif; 
@@ -233,7 +247,7 @@ body {
 }
 #bottom-images {
   position: relative;
-  top: 30rem;
+  top: 80rem;
   width: 100%;
   display: block;
   margin: auto;
@@ -247,7 +261,7 @@ body {
 
 .satisfied-customer img {
     padding-right: 10px; 
-    border-right: 3px solid rgb(204, 210, 85); 
+    border-right: 3px solid #D3D655; 
 }
 button {
     padding: 10px; 
