@@ -23,6 +23,8 @@ body {
     font-family: jubilat, sans-serif; 
     font-weight: 500; 
     color: white; 
+    font-size: 3rem; 
+    color: #323E48; 
 }
 #main-pic-top-desc {
     font-family: freight-sans-pro, sans-serif; 
@@ -62,9 +64,10 @@ body {
   width: 32.5rem;
   margin: auto; 
   font-family: jubilat, sans-serif; 
-  font-weight: 450;
   color: #323E48; 
-  
+  font-weight: 500;
+  letter-spacing: .03em;
+  margin-bottom: -100px;
 }
 .work-images {
     position: relative; 
@@ -90,6 +93,7 @@ body {
   font-size: 4rem;
   font-family: jubilat, sans-serif; 
   font-weight: 500; 
+  font-size: 3rem; 
   color: #323E48; 
 }
 
@@ -106,7 +110,7 @@ body {
 }
 .process-step-day {
     position: relative; 
-    bottom: 23px; 
+    bottom: 40px; 
     font-family: jubilat, sans-serif; 
     font-weight: 400; 
     color: #979696; 
@@ -123,6 +127,7 @@ body {
     font-family: freight-sans-pro, sans-serif; 
     font-weight: 500; 
     color: #979696; 
+    margin-bottom: 25px; 
 }
 .process-step-desc {
     font-family: freight-sans-pro, sans-serif; 
@@ -179,6 +184,7 @@ body {
     font-family: jubilat, sans-serif; 
     font-weight: 600; 
     color: #323E48; 
+    font-size: 3rem; 
 }
 #cost-estimate-and-survey h2 {
     font-family: freight-sans-pro, sans-serif; 
@@ -189,10 +195,12 @@ body {
     font-family: freight-sans-pro, sans-serif; 
     font-weight: 500; 
     font-size: 15px; 
+    
 }
 #cost-estimate-and-survey button {
     position: relative; 
     top: 1rem; 
+    transform: scale(1.4); 
 }
 #total-cost {
     font-weight: bold; 
@@ -201,7 +209,7 @@ body {
 
 #satisfied-customers {
     position: relative; 
-    top: 35em; 
+    top: 35em;
 }
 #satisfied-customers h1 {
   position: relative; 
@@ -209,13 +217,16 @@ body {
   text-align: center;
   font-family: jubilat; 
   font-weight: 600; 
+  font-size: 3rem; 
+  color: #323E48; 
 }
 .satisfied-customer {
-  margin: auto; 
   margin-bottom: -100px; 
   position: relative; 
   top: 150px; 
-  width: 50%;
+  width: 31%; 
+    display: block; 
+    margin: 0 auto;
 }
 
 .satisfied-customer img {
@@ -253,6 +264,8 @@ body {
 #get-started h1 {
   font-family: jubilat, sans-serif; 
   font-weight: 600; 
+  font-size: 3rem; 
+  color: #323E48; 
 }
 
 #get-started h2 {
@@ -264,6 +277,7 @@ body {
 #get-started button {
     position: relative; 
     top: 1rem; 
+    transform: scale(1.4); 
 }
 
 #freq-asked-questions {
@@ -314,7 +328,7 @@ button {
 #freq-asked-questions th{
        text-align: left; 
        font-family: freight-sans-pro; 
-       font-weight: 600;
+       font-weight: 500;
        color: #979696; 
 }
 
