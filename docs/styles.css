@@ -6,6 +6,16 @@
   object-fit: cover;
 
 }
+.header-image {
+    position: relative; 
+    bottom: 74px; 
+}
+#company-logo {
+    position: relative;
+    top: 100px; 
+    height: 70px;
+    left: 35px;
+}
 body {
   margin: 0;
 }
@@ -46,7 +56,7 @@ body {
 }
 #affirmation-1 {
   position: relative;
-  top: 5rem;
+  top: 7rem;
   width: 32.5rem;
   margin: auto; 
   font-family: jubilat, sans-serif; 
@@ -55,19 +65,20 @@ body {
   
 }
 .work-images {
-  position: relative;
-  top: 13rem;
-  display: flex;
+    position: relative; 
+    top: 13em; 
+    right: 2.75em; 
+    display: flex;
   justify-content: center;
 }
 .work-images img {
-  width: 13rem;
+  margin-right: -70px; 
   height: 12rem;
   padding: 1rem;
 }
 .work-images img:nth-of-type(odd){
   position: relative;
-  top: 5rem;
+  top: 6rem;
 }
 #two-week-timeline {
   position: relative;
@@ -166,6 +177,10 @@ body {
     font-family: jubilat, sans-serif; 
     font-weight: 400; 
 }
+#cost-estimate-and-survey button {
+    position: relative; 
+    top: 4rem; 
+}
 #total-cost {
     font-weight: bold; 
     color: #323E48; 
@@ -181,11 +196,11 @@ body {
   font-weight: 600; 
 }
 .satisfied-customer {
-  margin: auto;
   margin-top: -140px; 
-  width: 50%;
   position: relative; 
   top: 150px; 
+  width: 50%; 
+  margin: auto; 
 }
 
 .satisfied-customer img {
@@ -197,7 +212,7 @@ body {
 }
 .customer-quote {
   position: relative;
-  text-align: center; 
+  text-align: left; 
   width: 250px;
   bottom: 10rem; 
   left: 21rem; 
@@ -231,6 +246,11 @@ body {
     color: grey; 
 }
 
+#get-started button {
+    position: relative; 
+    top: 3rem; 
+}
+
 #freq-asked-questions {
     position: relative; 
     top: 60rem; 
@@ -247,16 +267,15 @@ body {
 }
 #bottom-images {
   position: relative;
-  top: 80rem;
-  width: 100%;
-  display: block;
-  margin: auto;
+    
 }
 #bottom-images img{
   width: 33.33%;
   margin: 0 auto; 
   padding: 0; 
     float: left; 
+    position: relative; 
+    top: 50rem; 
 }
 
 .satisfied-customer img {
@@ -281,8 +300,16 @@ button {
        text-align: left; 
        font-family: freight-sans-pro; 
        font-weight: 600;
-       color: rgb(140,140,140); 
+       color: #979696; 
 }
+
+#freq-asked-questions td {
+    height: 10px; 
+    width: 25%; 
+    font-family: freight-sans-pro; 
+    color: #323E48; 
+}
+
 #freq-asked-questions th:nth-of-type(even), 
 #freq-asked-questions td:nth-of-type(even) {
     position: relative; 
@@ -290,14 +317,6 @@ button {
     margin: 0 auto; 
     right: 25%; 
 }
-
-#freq-asked-questions td {
-    height: 10px; 
-    width: 25%; 
-    font-family: freight-sans-pro; 
-    
-}
-
 @media screen and (max-width: 1300px) {
     .customer-desc {
       width: 240px;
