@@ -282,7 +282,7 @@ body {
 }
 #bottom-images {
   position: relative;
-    
+  top: 30em; 
 }
 #bottom-images img{
   width: 33.33%;
