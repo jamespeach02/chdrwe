@@ -84,10 +84,19 @@ body {
   position: relative;
   top: 6rem;
 }
-#left-hex {
+#hex-right {
     position: relative; 
-    left: 1000px; 
-    background-color: red; 
+    top: 20px; 
+    float: right; 
+    width: 14.5rem;
+}
+#hex-left {
+    float: left; 
+    width: 11.1rem; 
+}
+#side-hexes {
+    position: relative; 
+    top: 610px;
 }
 #two-week-timeline {
   position: relative;
@@ -357,7 +366,7 @@ button {
     margin: 0 auto; 
     right: 25%; 
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
     .customer-desc {
       width: 240px;
     }
@@ -371,10 +380,29 @@ button {
         position: relative; 
         top: 600px; 
     }
+    
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1200px) {
+    #side-hexes {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 1000px) {
     .satisfied-customer {
-        right: 100px; 
+        right: 20%; 
+    }
+    
+    .header-image {
+        position: relative; 
+        bottom: 80px; 
+    }
+    #main-pic-top-desc {
+        bottom: 240px; 
+    }
+    
+    #company-description {
+        bottom: 130px; 
     }
 }
