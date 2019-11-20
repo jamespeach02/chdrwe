@@ -117,6 +117,25 @@ body {
   justify-content: center;
 }
 
+#day8 {
+    left: 25px; 
+}
+
+#day14 {
+    left: 20px;
+}
+#day9-13 {
+    left: 20px
+}
+#day2-7 {
+    left: 10px
+}
+#days-of-process-visual-rep {
+    width: 750px; 
+    display: block; 
+    margin: 0 auto;
+    margin-left: %;
+}
 #days-of-process td {
     padding-left: 50px; 
     padding-right: 50px; 
@@ -404,5 +423,16 @@ button {
     
     #company-description {
         bottom: 130px; 
+    }
+    #freq-asked-questions {
+        margin:0;
+    }
+    #freq-asked-questions th, 
+    #freq-asked-questions td {
+        padding: 0; 
+        margin: 0; 
+    } 
+    #freq-asked-questions tr {
+        width: fit-content;
     }
 }
