@@ -24,7 +24,6 @@ body {
     font-weight: 500; 
     color: white; 
     font-size: 3rem; 
-    color: #323E48; 
 }
 #main-pic-top-desc {
     font-family: freight-sans-pro, sans-serif; 
@@ -84,6 +83,11 @@ body {
 .work-images img:nth-of-type(odd){
   position: relative;
   top: 6rem;
+}
+#left-hex {
+    position: relative; 
+    left: 1000px; 
+    background-color: red; 
 }
 #two-week-timeline {
   position: relative;
@@ -191,20 +195,23 @@ body {
     font-weight: 500; 
     color: grey; 
 }
-#cost-estimate-and-survey p {
+#cost-estimate-and-survey h6 {
     font-family: freight-sans-pro, sans-serif; 
     font-weight: 500; 
-    font-size: 15px; 
+    font-size: 17px; 
+    margin-bottom: -25px; 
     
 }
 #cost-estimate-and-survey button {
     position: relative; 
-    top: 1rem; 
+    top: 4rem; 
     transform: scale(1.4); 
 }
 #total-cost {
-    font-weight: bold; 
+    margin-top: 50px;
+    font-weight: 500; 
     color: #323E48; 
+    font-family: jubilat;
 }
 
 #satisfied-customers {
@@ -235,6 +242,7 @@ body {
 
 .customer-quote, .customer-desc {
   position: relative;
+    bottom: 200px; 
 }
 .customer-quote {
   position: relative;
@@ -310,6 +318,9 @@ body {
 .satisfied-customer img {
     padding-right: 10px; 
     border-right: 3px solid #D3D655; 
+}
+.satisfied-customer p {
+    margin-top: -20px;
 }
 button {
     padding: 10px; 
