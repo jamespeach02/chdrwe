@@ -1,4 +1,4 @@
-#main-pic-top {
+.main-pic-top {
   width: 100%;
   height: 20rem;
   display: block;
@@ -10,7 +10,7 @@
     position: relative; 
     bottom: 74px; 
 }
-#company-logo {
+.company-logo {
     position: relative;
     top: 100px; 
     height: 70px;
@@ -19,18 +19,19 @@
 body {
   margin: 0;
 }
-#main-pic-top-header {
+.main-pic-top-header {
     font-family: jubilat, sans-serif; 
     font-weight: 500; 
     color: white; 
     font-size: 3rem; 
 }
-#main-pic-top-desc {
+.main-pic-top-desc {
     font-family: freight-sans-pro, sans-serif; 
     color: white; 
     font-size: 20px; 
 }
-#main-pic-top-header, #main-pic-top-desc {
+.main-pic-top-header, .main-pic-top-desc {
+  position: relative; 
   bottom: 13rem;
 }
 .text-center {
@@ -38,26 +39,19 @@ body {
   position: relative;
 }
 
-#company-description {
+.company-description {
   position: relative; 
   bottom: 80px; 
   display: block;
   margin: auto;
   width: 40rem;
 }
-.table-head {
-  position: relative;
-  bottom: .75rem;
-  font-family: jubilat, sans-serif; 
-    font-weight: 500; 
-    color: #323E48; 
-}
 
 .table-desc {
     font-family: freight-sans-pro, sans-serif; 
     color: grey; 
 }
-#affirmation-1 {
+.affirmation-1 {
   position: relative;
   top: 4rem;
   width: 32.5rem;
@@ -84,25 +78,25 @@ body {
   position: relative;
   top: 6rem;
 }
-#hex-right {
+.hex-right {
     position: relative; 
     top: 20px; 
     float: right; 
     width: 14.5rem;
 }
-#hex-left {
+.hex-left {
     float: left; 
     width: 11.1rem; 
 }
-#side-hexes {
+.side-hexes {
     position: relative; 
     top: 610px;
 }
-#two-week-timeline {
+.two-week-timeline {
   position: relative;
   top: 25rem;
 }
-#two-wk-head {
+.two-wk-head {
   font-size: 4rem;
   font-family: jubilat, sans-serif; 
   font-weight: 500; 
@@ -110,33 +104,33 @@ body {
   color: #323E48; 
 }
 
-#days-of-process {
+.days-of-process {
   color: #323E48; 
   font-size: 1.1rem;
   display: flex;
   justify-content: center;
 }
 
-#day8 {
+.day8 {
     left: 25px; 
 }
 
-#day14 {
+.day14 {
     left: 20px;
 }
-#day9-13 {
+.day9-13 {
     left: 20px
 }
-#day2-7 {
+.day2-7 {
     left: 10px
 }
-#days-of-process-visual-rep {
+.days-of-process-visual-rep {
     width: 750px; 
     display: block; 
     margin: 0 auto;
     margin-left: %;
 }
-#days-of-process td {
+.days-of-process td {
     padding-left: 50px; 
     padding-right: 50px; 
 }
@@ -201,52 +195,52 @@ body {
   bottom: 3.4rem;
 }
 
-#cost-estimate-and-survey, #satisfied-customers, #get-started, #freq-asked-questions {
+.cost-estimate-and-survey, .satisfied-customers, .get-started, .freq-asked-questions {
   position: relative;
   top: 15rem;
 }
 
-#cost-estimate-and-survey {
+.cost-estimate-and-survey {
   position: relative; 
   top: 30rem; 
   text-align: center;
 }
 
-#cost-estimate-and-survey h1 {
+.cost-estimate-and-survey h1 {
     font-family: jubilat, sans-serif; 
     font-weight: 600; 
     color: #323E48; 
     font-size: 3rem; 
 }
-#cost-estimate-and-survey h2 {
+.cost-estimate-and-survey h2 {
     font-family: freight-sans-pro, sans-serif; 
     font-weight: 500; 
     color: grey; 
 }
-#cost-estimate-and-survey h6 {
+.cost-estimate-and-survey h6 {
     font-family: freight-sans-pro, sans-serif; 
     font-weight: 500; 
     font-size: 17px; 
     margin-bottom: -25px; 
     
 }
-#cost-estimate-and-survey button {
+.cost-estimate-and-survey button {
     position: relative; 
     top: 4rem; 
     transform: scale(1.4); 
 }
-#total-cost {
+.total-cost {
     margin-top: 50px;
     font-weight: 500; 
     color: #323E48; 
     font-family: jubilat;
 }
 
-#satisfied-customers {
+.satisfied-customers {
     position: relative; 
     top: 35em;
 }
-#satisfied-customers h1 {
+.satisfied-customers h1 {
   position: relative; 
   top: 3em; 
   text-align: center;
@@ -291,50 +285,50 @@ body {
     text-align: center; 
 }
 
-#get-started {
+.get-started {
   position: relative; 
   top: 50rem; 
   text-align: center; 
 }
 
-#get-started h1 {
+.get-started h1 {
   font-family: jubilat, sans-serif; 
   font-weight: 600; 
   font-size: 3rem; 
   color: #323E48; 
 }
 
-#get-started h2 {
+.get-started h2 {
     font-family: freight-sans-pro, sans-serif; 
     font-weight: 400; 
     color: grey; 
 }
 
-#get-started button {
+.get-started button {
     position: relative; 
     top: 1rem; 
     transform: scale(1.4); 
 }
 
-#freq-asked-questions {
+.freq-asked-questions {
     position: relative; 
     top: 60rem; 
 }
-#freq-asked-questions h2 {
+.freq-asked-questions h2 {
   text-align: center; 
   font-family: jubilat, sans-serif; 
   font-weight: 500; 
 }
 
-#freq-asked-questions table {
+.freq-asked-questions table {
   margin: 0 auto;
   width: 50%;
 }
-#bottom-images {
+.bottom-images {
   position: relative;
   top: 30em; 
 }
-#bottom-images img{
+.bottom-images img{
   width: 33.33%;
   margin: 0 auto; 
   padding: 0; 
@@ -359,27 +353,27 @@ button {
     font-size: 15px; 
     color: rgb(140, 140, 140); 
 } 
-#freq-asked-questions table{
+.freq-asked-questions table{
 	   width: 60%;
     position: relative; 
     left: 7%; 
 }
-#freq-asked-questions th{
+.freq-asked-questions th{
        text-align: left; 
        font-family: freight-sans-pro; 
        font-weight: 500;
        color: #979696; 
 }
 
-#freq-asked-questions td {
+.freq-asked-questions td {
     height: 10px; 
     width: 25%; 
     font-family: freight-sans-pro; 
     color: #323E48; 
 }
 
-#freq-asked-questions th:nth-of-type(even), 
-#freq-asked-questions td:nth-of-type(even) {
+.freq-asked-questions th:nth-of-type(even), 
+.freq-asked-questions td:nth-of-type(even) {
     position: relative; 
     top: 200px; 
     margin: 0 auto; 
@@ -390,12 +384,12 @@ button {
       width: 240px;
     }
     
-    #freq-asked-questions th:nth-of-type(even),
-    #freq-asked-questions td:nth-of-type(even) {
+    .freq-asked-questions th:nth-of-type(even),
+    .freq-asked-questions td:nth-of-type(even) {
         position: relative; 
         top: 250px; 
     }
-    #bottom-images {
+    .bottom-images {
         position: relative; 
         top: 600px; 
     }
@@ -403,7 +397,7 @@ button {
 }
 
 @media screen and (max-width: 1200px) {
-    #side-hexes {
+    .side-hexes {
         display: none; 
     }
 }
@@ -417,22 +411,21 @@ button {
         position: relative; 
         bottom: 80px; 
     }
-    #main-pic-top-desc {
+    .main-pic-top-desc {
         bottom: 240px; 
     }
     
-    #company-description {
+    .company-description {
         bottom: 130px; 
     }
-    #freq-asked-questions {
+    .freq-asked-questions {
         margin:0;
     }
-    #freq-asked-questions th, 
-    #freq-asked-questions td {
+    .freq-asked-questions th, 
+    .freq-asked-questions td {
         padding: 0; 
         margin: 0; 
     } 
-    #freq-asked-questions tr {
+    .freq-asked-questions tr {
         width: fit-content;
     }
-}
